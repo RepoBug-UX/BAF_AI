@@ -1,0 +1,23 @@
+{
+  "request": "create and deploy an agent that responds with hi for me",
+  "timestamp": "2025-02-27T18:11:29.104Z",
+  "agent": {
+    "id": "2",
+    "hash": "0x9d01e26afa24aca63bc366ec9a45bb88f994db4c62cdbf98d38fb3bd7d669ba1",
+    "transaction": "0x9ce498bd7e4c1b24f23e149ae013d1a289922920b1dfe24d3d3322e8caf1cfe0",
+    "description": "A static agent that responds with 'Hi'"
+  },
+  "component": {
+    "id": "1",
+    "hash": "0x58767c25fc42cf3d85f52f629d8f5866c4e5e4b81c6db88929ef8b4fd5e0029e",
+    "transaction": "0x055f0a2d5989d0b8728a6a60adfc64e5dfc7dbc614a00801eec7e6b2cb7bf4b4"
+  },
+  "network": {
+    "name": "Base Sepolia",
+    "registryAddress": "0x9c7a943f0c1686d68136831bd502bc7925bd4f43"
+  },
+  "interactionCommands": {
+    "hardhat": "npx hardhat run scripts/interact.js --network baseSepolia",
+    "curl": "curl -X POST -H \"Content-Type: application/json\" -d '{\"agentId\": \"2\"}'"
+  }
+}
