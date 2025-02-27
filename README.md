@@ -1,0 +1,2 @@
+# BAF_AI
+BAF EthDenver 2025 AI Agent (NEARAI/PINAI)
