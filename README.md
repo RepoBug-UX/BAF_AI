@@ -1,6 +1,8 @@
 # NEAR AI X PIN AI Agents
 
-### Developed agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
+### Built agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
+
+### Developed by Jason Balayev, Kedar Kshatriya, Andrew Liu, and Gabriel Ginsberg under the BAF Hacker House for ETH Denver 2025.
 
 ## NEAR AI Agents
 
@@ -26,7 +28,7 @@
 
 ## PIN AI Agents
 
-### This Agent allows you to design and deploy AI agents to the Base Sepolia blockchain using natural language. The Creator Agent uses OpenAI's GPT models to design agents based on your description and deploys them as on-chain components.
+This Agent allows you to design and deploy AI agents to the Base Sepolia blockchain using natural language. The Creator Agent uses OpenAI's GPT models to design agents based on your description and deploys them as on-chain components.
 
 ## Features
 - Multi-threaded agent execution
@@ -199,12 +201,64 @@ To test each agent locally, run:
 nearai agent interactive ~/.nearai/registry/<your_wallet>.near/<agent_name>/0.0.1 --local
 ```
 
-## **9. Next Steps**
+## **9. Helpful Links**
 
-For further reading, check the [NEAR AI Documentation](https://docs.near.ai/)
+Check the [NEAR AI Documentation](https://docs.near.ai/)
 
 ## Usage
 Each agent can be run independently or as part of the multi-threaded system:
 - For crypto tracking: Use keywords related to cryptocurrencies
 - For travel planning: Include travel-related terms in your query
 - For legal planning: Specify the type of document needed
+
+## PIN AI Agent Setup
+
+### Prerequisites
+- Node.js (v16 or higher)
+- pnpm (v8 or higher)
+- Git
+
+## **1. Getting Started**
+
+Clone the Repository:
+```bash
+git clone https://github.com/PIN-AI/pin_ai_agent_registry_scripts.git
+cd pin_ai_agent_registry_scripts
+```
+
+## **2.Install Dependencies:**
+```bash
+# Install pnpm if you haven't already
+npm install -g pnpm
+
+# Install project dependencies
+pnpm install
+```
+
+## **3. Configure Environment:**
+```bash
+# Create environment file from template
+cp .env.example .env
+
+# Edit the .env file with your configuration details
+```
+
+## **4. Configure Agent Settings:**
+Edit `hackathon/scripts/create-agent.js`:
+```javascript
+// Update these values at the beginning of the file
+const agentName = "Your Agent Name";
+const serviceUrl = "https://your-service-url.com"; // Optional
+```
+
+## **5. Creating the Agent**
+
+Run the following command to create your agent:
+```bash
+pnpm run agent:create
+```
+
+## **6. Helpful Links**
+
+Check the [PIN AI Documentation](https://docs.pinai.io/)
+Check the [PIN AI Open Repo](https://github.com/PIN-AI/pin_ai_agent_registry_scripts.git)
