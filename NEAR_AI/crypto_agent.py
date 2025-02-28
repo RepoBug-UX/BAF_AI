@@ -63,7 +63,7 @@ def parse_crypto_query(query: str) -> str:
     
     return None
 
-def fetch_crypto_price(symbol: str, convert: str = "USD"):
+def get_crypto_price(symbol: str, convert: str = "USD"):
     """Fetch the latest price of a specified cryptocurrency."""
     api_key = os.getenv("COINMARKETCAP_API_KEY")
     if not api_key:
@@ -98,7 +98,7 @@ def fetch_crypto_price(symbol: str, convert: str = "USD"):
         print(f"API request failed: {e}")
         return None
 
-def fetch_crypto_conversion(base_symbol: str, target_symbol: str):
+def get_crypto_conversion(base_symbol: str, target_symbol: str):
     """Fetch the conversion rate between two cryptocurrencies.
     
     Args:
@@ -108,15 +108,15 @@ def fetch_crypto_conversion(base_symbol: str, target_symbol: str):
     Returns:
         float: The conversion rate, or None if there's an error
     """
-    return fetch_crypto_price(base_symbol, target_symbol)
+    return get_crypto_price(base_symbol, target_symbol)
 
 def handle_crypto_query(query: str):
     """Handle a natural language query about cryptocurrency prices."""
     symbol = parse_crypto_query(query)
     if symbol:
-        fetch_crypto_price(symbol)
+        get_crypto_price(symbol)
     else:
-        print("Couldn't figure out which crypto you're asking about")
+        print("No such crypto exists")
 
 if __name__ == "__main__":
     while True:
