@@ -1,4 +1,4 @@
-# NEAR AI Agents
+# NEAR AI X PIN AI Agents
 ## A Collection of Specialized AI Agents
 
 ### Developed agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
@@ -142,7 +142,7 @@ This will open a browser window asking you to **approve the authentication reque
 
 Agent folder contains:
 
-**`agent.py`** – The core logic of your AI agent
+**`agent.py`** – The core logic of the AI agent
 **`metadata.json`** – The agent's metadata
 
 Navigate to the agent directory:
@@ -189,7 +189,7 @@ nearai registry download <your_wallet>.near/<agent_name>/latest
 
 After downloading, the agents will be available in your local NEAR AI registry. You can then modify them according to your needs:
 
-## **8. Running Your Agents Locally**
+## **8. Running The Agents Locally**
 
 To test each agent locally, run:
 
