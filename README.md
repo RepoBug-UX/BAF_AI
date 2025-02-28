@@ -207,3 +207,7 @@ Each agent can be run independently or as part of the multi-threaded system:
 - For travel planning: Include travel-related terms in your query
 - For legal planning: Specify the type of document needed
 
+<<<<<<< HEAD
+=======
+ Built using NearAI's and PINAI's tech stacks, in collaboration with the Blockchain Acceleration Foundation. 
+>>>>>>> f04e7019b7c6d8ef66d45d4a08dcd04608c6a6ba
