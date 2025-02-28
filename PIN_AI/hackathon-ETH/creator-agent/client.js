@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 // Server URL
-const SERVER_URL = 'http://localhost:3000';
+const SERVER_URL = 'http://localhost:3000'; 
 
 // Store if we're waiting for deployment
 let waitingForDeployment = false;
