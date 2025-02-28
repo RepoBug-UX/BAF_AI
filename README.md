@@ -1,5 +1,4 @@
 # NEAR AI X PIN AI Agents
-## A Collection of Specialized AI Agents
 
 ### Developed agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
 
