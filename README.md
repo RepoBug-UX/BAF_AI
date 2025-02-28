@@ -2,7 +2,7 @@
 
 ### Developed agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
 
-## Agents
+## NEAR AI Agents
 
 ### 1. Crypto Agent
 - Real-time cryptocurrency price tracking using CoinMarketCap API
@@ -24,6 +24,10 @@
 - Local document storage and management
 - Support for various legal document types
 
+## PIN AI Agents
+
+### This Agent allows you to design and deploy AI agents to the Base Sepolia blockchain using natural language. The Creator Agent uses OpenAI's GPT models to design agents based on your description and deploys them as on-chain components.
+
 ## Features
 - Multi-threaded agent execution
 - Natural language processing
@@ -35,11 +39,10 @@
 ## Technical Integration
 - Built on NEAR AI's agent framework
 - Enhanced with PIN AI's advanced processing capabilities
-- Modular architecture for easy extension
 - Environment-based configuration
-- Exception handling and graceful degradation
+- Exception handling
 
-## Setup
+## NEAR AI Agent Setup
 Before starting, ensure you have:
 
 1. macOS or Linux (Windows users should use WSL2 or a VM)
@@ -205,8 +208,3 @@ Each agent can be run independently or as part of the multi-threaded system:
 - For crypto tracking: Use keywords related to cryptocurrencies
 - For travel planning: Include travel-related terms in your query
 - For legal planning: Specify the type of document needed
-
-<<<<<<< HEAD
-=======
- Built using NearAI's and PINAI's tech stacks, in collaboration with the Blockchain Acceleration Foundation. 
->>>>>>> f04e7019b7c6d8ef66d45d4a08dcd04608c6a6ba
