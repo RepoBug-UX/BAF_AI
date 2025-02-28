@@ -25,7 +25,7 @@ class ContractPDF(FPDF):
         self.set_font('Arial', 'I', 8)
         self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', 0, 0, 'C')
 
-def generate_rental_agreement(details):
+def rental_agreement(details):
     storage = FileStorage()
     pdf = ContractPDF()
     pdf.alias_nb_pages()
@@ -53,7 +53,6 @@ def generate_rental_agreement(details):
     return filename, file_path
 
 if __name__ == "__main__":
-    # Example usage
     contract_details = {
         "landlord_name": "John Doe",
         "tenant_names": "Jane Smith",
@@ -63,5 +62,5 @@ if __name__ == "__main__":
         "security_deposit": "2000"
     }
     
-    filename, file_path = generate_rental_agreement(contract_details)
+    filename, file_path = rental_agreement(contract_details)
     print(f"Agreement generated: {file_path}") 
