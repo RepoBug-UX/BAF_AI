@@ -8,7 +8,7 @@ def get_crypto_metadata():
     """Fetch cryptocurrency metadata from CoinMarketCap API."""
     api_key = os.getenv("COINMARKETCAP_API_KEY")
     if not api_key:
-        return {}
+        return {} 
 
     url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map"
     headers = {

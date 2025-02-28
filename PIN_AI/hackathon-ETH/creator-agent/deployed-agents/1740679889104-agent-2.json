@@ -20,4 +20,4 @@
     "hardhat": "npx hardhat run scripts/interact.js --network baseSepolia",
     "curl": "curl -X POST -H \"Content-Type: application/json\" -d '{\"agentId\": \"2\"}'"
   }
-}
+} 
