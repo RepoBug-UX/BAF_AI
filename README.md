@@ -2,7 +2,7 @@
 
 ### Built agents built using NEAR AI's and PIN AI's tech stacks, in collaboration with the Blockchain Acceleration Foundation (BAF).
 
-### Developed by Jason Balayev, Kedar Kshatriya, Andrew Liu, and Gabriel Ginsberg under the BAF Hacker House for ETH Denver 2025.
+## Developed by Jason Balayev, Kedar Kshatriya, Andrew Liu, and Gabriel Ginsberg under the BAF Hacker House for ETH Denver 2025.
 
 ## NEAR AI Agents
 
@@ -260,5 +260,4 @@ pnpm run agent:create
 
 ## **6. Helpful Links**
 
-Check the [PIN AI Documentation](https://docs.pinai.io/)
-Check the [PIN AI Open Repo](https://github.com/PIN-AI/pin_ai_agent_registry_scripts.git)
+Check the [PIN AI Documentation](https://docs.pinai.io/) and, the [PIN AI Open Repo](https://github.com/PIN-AI/pin_ai_agent_registry_scripts.git)
