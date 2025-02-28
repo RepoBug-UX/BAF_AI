@@ -9,6 +9,4 @@
 - Convert between different cryptocurrencies.
 - CLI-based interaction for user-friendly usage.
 
-
-
  Built using NearAI's and PINAI's tech stacks, in collaboration with the Blockchain Acceleration Foundation.

@@ -34,9 +34,9 @@ def run(env: Environment):
                     thread_mode=ThreadMode.FORK
                 )
                 active_threads.append((keyword, thread))
-                response_parts.append(f"🔄 {keyword.title()} thread: {thread}")
+                response_parts.append(f" {keyword.title()} thread: {thread}")
             except Exception as e:
-                response_parts.append(f"⚠️ {keyword.title()} agent unavailable")
+                response_parts.append(f"{keyword.title()} agent unavailable")
 
     if active_threads:
         response = "🚀 Multiple threads started!\n\n" + "\n\n".join(response_parts)
