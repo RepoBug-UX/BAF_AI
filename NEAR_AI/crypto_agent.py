@@ -14,7 +14,7 @@ def get_crypto_metadata():
     headers = {
         "Accepts": "application/json",
         "X-CMC_PRO_API_KEY": api_key
-    }
+    } 
     
     try:
         response = requests.get(url, headers=headers)
